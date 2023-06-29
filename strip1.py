@@ -10,3 +10,18 @@ print(s4)
 s6="www.puter.com"
 s7=s6.strip("w.com")
 print(s7)
+
+#nameslist
+namesList=["naresh",
+            "nagehs",
+            "ramesh",
+            "radhika",
+            "rigita"]
+for name in namesList:
+    if name.startswith("r"):
+        print(name)
+print()
+for name in namesList:
+    if name.startswith(("n","r")):
+        print(name)
+            
