@@ -1,0 +1,10 @@
+str1="abacddabbb"
+set1=set(str1)
+str2=""
+for ch in set1:
+    c=str1.count(ch)
+    str2=str2+str(c)+ch
+
+    
+print(str1)
+print(str2)
